@@ -32,6 +32,8 @@ for values, we use the following placeholders,
 * "[INT]" - for integers
 * "[BOOL]" - for boolean values (true/false)
 * "[LIST]" - for any list of strings, values etc.
+* "[FILTER]" - for minecraft filters
+* "[VECTOR]" - for vectors
 
 if there is a default value, it would look like this:
 "[PLACEHOLDER]/defaultvalue"
