@@ -30,8 +30,8 @@ attributes = {
         "effect_name": "[STR]"
     },
     "minecraft:spell_effects": {
-        "add_effects": "[STR]",
-        "remove_effects": "[STR]",
+        "add_effects": "[LIST]",
+        "remove_effects": "[LIST]",
     },
     "minecraft:strength": {
         "value": "[INT]/1",
@@ -91,7 +91,7 @@ properties = {
     "minecraft:is_stackable": {},
     "minecraft:is_tamed": {},
     "minecraft:item_controllable": {
-        "control_items": "[STR]"
+        "control_items": "[LIST]"
     },
     "minecraft:loot": {
         "table": "[STR]"
@@ -109,7 +109,7 @@ properties = {
         "value": "[FLOAT]/1.0"
     },
     "minecraft:type_family": {
-        "family": "[STR]"
+        "family": "[LIST]"
     },
     "minecraft:variant": {
         "value": "[INT]/0"
